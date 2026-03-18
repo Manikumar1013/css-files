@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+        body{
+            margin: 0px;
+            background-image: url("https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: cover;
+            min-height: 100vh;
+        }
+        .container{
+            background-color:white;
+            width: 25%;
+            border-radius: 10px;
+            padding:1% 4% 3% 4%;
+            margin:auto ;
+            margin-top: 5%;
+        }
+        .container h3, .login {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .form-field,.form-checkbox{
+            margin-bottom:20px;
+        }
+        .form-field input{
+            padding: 20px;
+            width: 90%;
+            border:1px solid rgba(0, 0, 0, 0.3);
+        }
+        a{
+            color: black;
+            font-weight: bold;
+        }
+       
+
+        .btn-grad {
+            background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+            width: 100%;
+            margin-bottom: 15%;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="container">
+        <h3>CREATE ACCOUNT</h3>
+        <div class="form-field">
+            <input type="text" placeholder="Your Name"/>
+        </div>
+        <div class="form-field">
+            <input type="email" placeholder="Your Email"/>
+        </div>
+        <div class="form-field">
+            <input type="password" placeholder="Your Password"/>
+        </div>
+        <div class="form-field">
+            <input type="password" placeholder="Repeat Your password"/>
+        </div>
+        <div class="form-checkbox">
+            <input type="checkbox" id="terms"/>
+            <label for="terms">i agree all statements in <a href="">Terms of service</a></label>
+        </div>
+        
+            <button class="btn-grad">SIGN UP</button>
+        
+        <div class="login">
+            Have already an account<a href="">Login here</a>
+        </div>
+    </form>
+</body>
+</html>
